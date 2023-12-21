@@ -52,6 +52,7 @@ bool whoWins() {
 }
 
 void main() {
+  print('THE GAME STARTED!!!!');
   printGame();
   while (true) {
     print('Player $currentPlayer, please enter the number of the square where you want to place your $currentPlayer:');
